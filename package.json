@@ -9,7 +9,7 @@
     "lint-eslint-fix": "eslint ./src ./ --ext .ts,.tsx,.js,.vue --fix",
     "lint-stylelint": "stylelint 'src/**/*.{less,vue}' --fix",
     "pretty-quick": "pretty-quick",
-    "prepare": "husky init"
+    "prepare": "husky install"
   },
   "dependencies": {
     "less": "^4.1.1",
