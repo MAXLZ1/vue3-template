@@ -8,7 +8,8 @@
     "lint-eslint": "eslint ./src ./ --ext .ts,.tsx,.js,.vue",
     "lint-eslint-fix": "eslint ./src ./ --ext .ts,.tsx,.js,.vue --fix",
     "lint-stylelint": "stylelint 'src/**/*.{less,vue}' --fix",
-    "pretty-quick": "pretty-quick"
+    "pretty-quick": "pretty-quick",
+    "prepare": "husky init"
   },
   "dependencies": {
     "less": "^4.1.1",
